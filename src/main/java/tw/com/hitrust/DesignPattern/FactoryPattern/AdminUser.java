@@ -18,5 +18,8 @@ public class AdminUser implements User {
 	public String showUserFeatures() {
 		return "Show All of Features";
 	}
-
+	
+	public String AdminOnlyMethod() {
+		return "Admin User Only Method";
+	}
 }

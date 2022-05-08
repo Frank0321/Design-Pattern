@@ -18,6 +18,8 @@ public class FactoryApplication {
 		
 		localUser.showUserName();
 		adminUser.showUserName();
+		
+		//adminUser.AdminOnlyMethod();
 	}
 
 }
